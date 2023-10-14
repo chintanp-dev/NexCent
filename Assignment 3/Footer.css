@@ -1,0 +1,122 @@
+.Frame16{
+    background: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    padding: 32px 0px;
+    gap: 32px;
+}
+
+.frame16headind{
+    color: #263238;
+    text-align: center;
+    width: 61%;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+.footerbig4{
+    display: flex;
+    align-items: flex-start;
+    padding: 4% 11%;
+    gap: 190px;
+    background: #263238;
+}
+
+/* companyinfomation */
+
+.companyinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.footerlogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: #F5F7FA;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.sociallogo{
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* Links */
+
+.links{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.column1, .column2, .column3{
+    color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.fheading{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.listitems{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.listitems li{
+    color: #F5F7FA;
+    width: 160px;
+}
+
+#emailid{
+    outline: none;
+    border: 0px solid;
+    border-radius: 8px;
+    width: 255px;
+    height: 40px;
+    padding: 0px 0px 0px 15px;
+    background-color: #bec0c5;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+    justify-content: end;
+    align-items: center;
+}
+
+.sendbtn{
+    background-color: #bec0c5;
+    font-size: 1.3rem;
+    cursor: pointer;
+    padding: 4px 15px 0px 0px;
+    border: 0px;
+    position: absolute;
+}
+
+.sendbtn:focus-visible {
+    outline: 0px;
+}

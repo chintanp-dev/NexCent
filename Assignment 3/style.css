@@ -1,0 +1,54 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    width: auto;
+    height: 84px;
+    display: flex;
+    background: #F5F7FA;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon1{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    color: #263238;
+}
+
+ul{
+    display: flex;
+    gap: 50px;
+}
+
+li{
+    list-style: none;
+    color: var(--text-gray-900, #18191F);
+}
+
+.btn{
+    display: inline-flex;
+    gap: 14px;
+}
+
+#login{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: var(--neutral-silver, #F5F7FA);
+    border: 0px;
+    color: green;
+}
+
+#signup{
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background: var(--brand-primary, #4CAF4F);
+    border: 0px;
+    color: white;
+}
